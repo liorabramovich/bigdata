@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Asteroids Closest Approach</title>
+</head>
+<body>
+    <h1>Asteroids Closest Approach</h1>
+    <div id="asteroidData"></div>
+
+    <script>
+        fetch('/nasa')
+            .then(response => response.json())
+            .then(data => {
+                const asteroids = data.near_earth_objects;
+                let asteroidHtml = '<ul>';
+                for (const date in asteroids) {
+                    asteroidHtml += `<li>${date}: ${asteroids[date].length} asteroids</li>`;
+                }
+                asteroidHtml += '</ul>';
+
+                const asteroidDataElement = document.getElementById('asteroidData');
+                asteroidDataElement.innerHTML = asteroidHtml;
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    </script>
+</body>
+</html>

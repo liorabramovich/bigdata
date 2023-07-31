@@ -1,0 +1,22 @@
+command how to run the zookeepr in terminal 1: bin/zookeeper-server-start.sh config/zookeeper.properties
+command how to run the kafka in terminal 2: bin/kafka-server-start.sh config/server.properties
+
+now run the consumer - it will run over and over
+now run the producer - it will produce to the kafka what every you wish
+
+to run the localhost that is showing the json of the astroids from date X to date Y : node nasa.js  and then add /nasa to the url
+
+to run the dashboard : node server.js 
+
+to run the simulator : simulator.js 
+
+node simnew.js to run the websocket send json
+node nasa.js to run the dashboard
+
+run elastic on docker : docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.14.0
+
+run kafka on docker : docker run -d --name kafka -p 9092:9092 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 -e KAFKA_LISTENER_SECURITY_PROTOCOL_MAP=PLAINTEXT:PLAINTEXT -e KAFKA_INTER_BROKER_LISTENER_NAME=PLAINTEXT -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_AUTO_CREATE_TOPICS_ENABLE=false wurstmeister/kafka:2.13-2.8.0
+
+kafka host 9094
+
+to run so it will index in elastic search run noneedcheck.js run consumer and producer

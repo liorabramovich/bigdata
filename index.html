@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Nice lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Nice admin lite design, Nice admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description"
+        content="Nice Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Nice Admin Lite Template by WrapPixel</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/niceadmin-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
+    <!-- Custom CSS -->
+    <link href="../../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-navbarbg="skin6" data-theme="light" data-layout="vertical" data-sidebartype="full"
+        data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin6">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <div class="navbar-header" data-logobg="skin5">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
+                        <i class="ti-menu ti-close"></i>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-brand">
+                        <a href="index.html" class="logo">
+                            <!-- Logo icon -->
+                            <b class="logo-icon">
+                                <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                                <!-- Dark Logo icon -->
+                                <img src="../../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo icon -->
+                                <img src="../../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span class="logo-text">
+                                <!-- dark Logo text -->
+                                <img src="../../assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo text -->
+                                <img src="../../assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                            </span>
+                        </a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin6">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-start me-auto">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item search-box">
+                            <a class="nav-link waves-effect waves-dark" href="javascript:void(0)">
+                                <div class="d-flex align-items-center">
+                                    <i class="mdi mdi-magnify font-20 me-1"></i>
+                                    <div class="ms-1 d-none d-sm-block">
+                                        <img src="../../assets/images/search-icon.png" alt="homepage" class="light-logo" />
+                                        <span>Search</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <form class="app-search position-absolute">
+                                <input type="text" class="form-control" placeholder="Search &amp; enter">
+                                <a class="srh-btn">
+                                    <i class="ti-close"></i>
+                                </a>
+                            </form>
+                        </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-end">
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="../../assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31">
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end user-dd animated" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user me-1 ms-1"></i>
+                                    My Profile</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet me-1 ms-1"></i>
+                                    My Balance</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email me-1 ms-1"></i>
+                                    Inbox</a>
+                            </ul>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin5">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-av-timer"></i>
+                                <img src="../../assets/images/dashdash.png" alt="homepage" class="light-logo" />
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pages-profile.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-account-network"></i>
+                                <img src="../../assets/images/search-icon.png" alt="homepage" class="light-logo" />
+                                <span class="hide-menu">Search</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="form-basic.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-arrange-bring-forward"></i>
+                                <img src="../../assets/images/anal.png" alt="homepage" class="light-logo" />
+                                <span class="hide-menu">Analyze</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-5 align-self-center">
+                        <h4 class="page-title">Welcome Yossi,</h4>
+                    </div>
+                    <div class="col-7 align-self-center">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Email campaign chart -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Statistics</h4>
+                                <div class="sales ct-charts mt-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        
+                        
+                        <title>WebSocket Dashboard</title>
+                            <!-- Add Bootstrap CSS -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+                            </head>
+                            <body>
+                            <div class="container mt-5">
+                                <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-1">Live Astronomical Events</h5>
+                                    <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tbody id="jsonContent">
+                                        <tr>
+                                            <td colspan="2">Waiting for JSON data...</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        
+
+                        
+                        <div class="card">
+                            <div class="card-body">
+                                
+                                <h2 class="font-light"><span class="font-16 text-success font-medium">BRAT</span>
+                                </h2>
+                                <div class="mt-4">
+                                    <div class="row text-center">
+                                        <div class="col-6 border-right">
+                                            
+                                        </div>
+                                        <div class="col-6">
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Email campaign chart -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Ravenue - page-view-bounce rate -->
+                <!-- ============================================================== -->
+
+                
+                
+
+                                <!DOCTYPE html>
+                                <html>
+                                <head>
+                                    <title>NASA API Dashboard</title>
+                                    <style>
+                                        /* Example CSS styles */
+                                        body {
+                                            font-family: Arial, sans-serif;
+                                            margin: 20px;
+                                        }
+                                
+                                        table {
+                                            width: 100%;
+                                            border-collapse: collapse;
+                                            margin-top: 20px;
+                                        }
+                                
+                                        th, td {
+                                            border: 1px solid #ccc;
+                                            padding: 10px;
+                                            text-align: left;
+                                        }
+                                
+                                        th {
+                                            background-color: #f2f2f2;
+                                        }
+                                
+                                        .hazardous {
+                                            color: red;
+                                            font-weight: bold;
+                                        }
+                                    </style>
+                                </head>
+                                <body>
+                                    <h1>NASA API Dashboard</h1>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Estimated Diameter (km)</th>
+                                                <th>Distance from Earth (km)</th>
+                                                <th>Close Approach Date (Full)</th>
+                                                <th>Miss Distance (astronomical)</th>
+                                                <th>Miss Distance (lunar)</th>
+                                                <th>Miss Distance (kilometers)</th>
+                                                <th>Orbiting Body</th>
+                                                <th>Potentially Hazardous</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="data-container">
+                                            <!-- Data will be displayed here -->
+                                        </tbody>
+                                    </table>
+                                    <script>
+                                        // JavaScript code to fetch data from the /nasa endpoint and display it in the table
+                                        fetch('/nasa')
+                                            .then(response => response.json())
+                                            .then(data => {
+                                                const dataContainer = document.getElementById('data-container');
+                                
+                                                // Iterate through the data and create table rows for each asteroid
+                                                data.near_earth_objects['2023-01-07'].forEach(asteroid => {
+                                                    const row = document.createElement('tr');
+                                
+                                                    const asteroidName = document.createElement('td');
+                                                    asteroidName.textContent = asteroid.name;
+                                                    row.appendChild(asteroidName);
+                                
+                                                    const asteroidDiameter = document.createElement('td');
+                                                    asteroidDiameter.textContent = asteroid.estimated_diameter.kilometers.estimated_diameter_max.toFixed(2);
+                                                    row.appendChild(asteroidDiameter);
+                                
+                                                    const asteroidDistance = document.createElement('td');
+                                                    asteroidDistance.textContent = asteroid.close_approach_data[0].miss_distance.kilometers;
+                                                    row.appendChild(asteroidDistance);
+                                
+                                                    const asteroidCloseApproachDate = document.createElement('td');
+                                                    asteroidCloseApproachDate.textContent = asteroid.close_approach_data[0].close_approach_date_full;
+                                                    row.appendChild(asteroidCloseApproachDate);
+                                
+                                                    const asteroidMissDistanceAstronomical = document.createElement('td');
+                                                    asteroidMissDistanceAstronomical.textContent = asteroid.close_approach_data[0].miss_distance.astronomical;
+                                                    row.appendChild(asteroidMissDistanceAstronomical);
+                                
+                                                    const asteroidMissDistanceLunar = document.createElement('td');
+                                                    asteroidMissDistanceLunar.textContent = asteroid.close_approach_data[0].miss_distance.lunar;
+                                                    row.appendChild(asteroidMissDistanceLunar);
+                                
+                                                    const asteroidMissDistanceKm = document.createElement('td');
+                                                    asteroidMissDistanceKm.textContent = asteroid.close_approach_data[0].miss_distance.kilometers;
+                                                    row.appendChild(asteroidMissDistanceKm);
+                                
+                                                    const asteroidOrbitingBody = document.createElement('td');
+                                                    asteroidOrbitingBody.textContent = asteroid.close_approach_data[0].orbiting_body;
+                                                    row.appendChild(asteroidOrbitingBody);
+                                
+                                                    const asteroidHazardous = document.createElement('td');
+                                                    asteroidHazardous.textContent = asteroid.is_potentially_hazardous_asteroid ? 'Yes' : 'No';
+                                                    asteroidHazardous.classList.add(asteroid.is_potentially_hazardous_asteroid ? 'hazardous' : 'safe');
+                                                    row.appendChild(asteroidHazardous);
+                                
+                                                    dataContainer.appendChild(row);
+                                                });
+                                            })
+                                            .catch(error => {
+                                                console.error('Error fetching data:', error);
+                                                const errorRow = document.createElement('tr');
+                                                const errorCell = document.createElement('td');
+                                                errorCell.setAttribute('colspan', '9');
+                                                errorCell.textContent = 'An error occurred while fetching data from NASA API.';
+                                                errorRow.appendChild(errorCell);
+                                                document.getElementById('data-container').appendChild(errorRow);
+                                            });
+                                    </script>
+                                </body>
+                                </html>
+                                
+                                
+
+                    </div>
+
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Recent comment and chats -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    
+    
+    
+    <script>
+        const tbody = document.getElementById('nasa-data-body');
+      
+        fetch('/nasa') // This fetches data from your Node.js server at http://localhost:3001/nasa
+          .then(response => response.json())
+          .then(data => {
+            // The JSON data from NASA API is now available in the "data" variable
+            // Use this data to populate the table with all keys and their values
+      
+            // Function to populate the table rows with data
+            function populateTable(data) {
+              // Loop through the properties of the data object
+              for (const key in data) {
+                // Skip is_sentry_object property as it is not needed for display
+                if (key === 'is_sentry_object') {
+                  continue;
+                }
+      
+                const value = data[key];
+      
+                // Create a table row with the key and value
+                const row = document.createElement('tr');
+                const keyCell = document.createElement('td');
+                const valueCell = document.createElement('td');
+      
+                keyCell.textContent = key;
+                valueCell.textContent = typeof value === 'object' ? JSON.stringify(value) : value;
+      
+                row.appendChild(keyCell);
+                row.appendChild(valueCell);
+      
+                // Append the row to the table body
+                tbody.appendChild(row);
+              }
+            }
+      
+            populateTable(data);
+          })
+          .catch(error => {
+            console.error('Error occurred:',error);
+            tbody.innerHTML = '<tr><td colspan="2">Error fetching data from NASA API.</td></tr>';
+          });
+      </script>
+      
+      
+
+
+
+
+
+        <!-- Add Bootstrap and WebSocket script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const jsonTableBody = document.getElementById('jsonContent');
+
+        // Connect to the WebSocket server
+        const socket = new WebSocket('ws://localhost:3000');
+
+        // Function to update the JSON table
+        function updateJsonTable(jsonData) {
+        let tableContent = '';
+        for (const key in jsonData) {
+            tableContent += `
+            <tr>
+                <td>${key}</td>
+                <td>${jsonData[key]}</td>
+            </tr>
+            `;
+        }
+        jsonTableBody.innerHTML = tableContent || '<tr><td colspan="2">No JSON data available.</td></tr>';
+        }
+
+        // Handle incoming JSON data
+        socket.onmessage = (event) => {
+        const jsonData = JSON.parse(event.data);
+        // Update the card content with the received JSON data
+        updateJsonTable(jsonData);
+        };
+    </script>
+
+      
+      
+
+
+      
+    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../../assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="../../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../../dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="../../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="../../dist/js/pages/dashboards/dashboard1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "sddd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "no"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.9.0",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "elasticsearch": "^16.7.3",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.2.4",
+    "ws": "^8.13.0"
+  }
+}
